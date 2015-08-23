@@ -1,0 +1,15 @@
+{application, 'rebar3_proper',
+ [{description, "A rebar plugin"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, ["Andrzej Śliwa"]},
+  {licenses, ["Apache 2.0"]},
+  {links, [{"Github", "https://github.com/andrzejsliwa/rebar3-proper"}]}
+ ]}.
